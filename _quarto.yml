@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Sérgio Leite"
+  site-url: "https://github.com/RamonnLeite/"
+  page-footer:
+    left: "Website Feito em R, by Ramon. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        #text: Suporte Técnico
+        href: https://github.com/RamonnLeite/
+      - icon: envelope
+        #text: Email
+        href: mailto:ramon.leite2017@gmail.com
+  navbar:
+    right:
+      - text: Sobre
+        menu:
+          - text: Carlos Gomes
+          - text: Formação Academica
+          - text: Primeira Banda
+          - text: Raul Seixas
+          - text: Biografia Geral
+      - text: Streaming
+        menu: 
+          - text: Spotify
+          - text: Deezer
+          - text: Youtube Music
+          - text: Apple Music
+          - text: Soundcloud
+      - text: Redes Sociais
+        menu: 
+          - text: Facebook
+          - text: Instagram
+      - text: Participações
+        menu: 
+          - text: Banda Ira
+          - text: Sayonara
+      - text: Prêmios
+        menu: 
+          - text: Festival de Icoaraci
+          - text: Festival da Canção de Marabá 
+    left:
+      #- href: index.qmd
+      #  text: Home
+      - about.qmd
+
+format:
+  html:
+    smooth-scroll: true
+    theme: 
+      - pulse
+      - custom.scss
+    toc: true
+
+editor: visual
+
